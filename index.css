@@ -1,0 +1,52 @@
+@import url("https://fonts.google.com/specimen/Playfair+Display")
+
+@import url("https://fonts.google.com/specimen/Ubuntu")
+
+* {
+	box-sizing: border-box;
+	outline: 0 !important;
+	margin: 0;
+	padding: 0;
+	font-family: "Playfair Display";
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+ul li{
+	list-style-type: none
+}
+
+main p {
+	color: "#626262";
+}
+
+footer {
+	background-color: #f0f0f0;
+	color: 000000;
+}
+
+.d-flex {
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+}
+
+.justify-content-between {
+	justify-content: space-between;
+}
+
+.uppercase-text {
+	text-transform: uppercase;
+	color: "#626262"; 
+	font-family: "Ubuntu", "light";
+}
+
+.post {
+	width: 50%;
+}
+.suscribe-box {
+	background-color: "#f0f0f0";
+}
